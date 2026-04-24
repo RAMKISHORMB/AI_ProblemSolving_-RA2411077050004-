@@ -1,0 +1,27 @@
+## Algorithms Used
+
+### 1. Minimax Algorithm
+The Minimax algorithm is a decision-making algorithm used in two-player games. It assumes that the opponent is also playing optimally.
+
+- The algorithm explores all possible game states.
+- It maximizes the AI's chances of winning while minimizing the opponent's chances.
+- It recursively evaluates moves and assigns scores:
+  - +1 for AI win
+  - -1 for user win
+  - 0 for draw
+
+### 2. Alpha-Beta Pruning
+Alpha-Beta Pruning is an optimization technique for the Minimax algorithm.
+
+- It reduces the number of nodes evaluated in the search tree.
+- It eliminates branches that do not affect the final decision.
+- This significantly improves performance compared to standard Minimax.
+
+### Comparison Metrics
+
+The following metrics are used to compare both algorithms:
+
+- **Execution Time**: Time taken to compute the best move
+- **Number of Nodes Explored**: Total game states evaluated
+
+Results show that Alpha-Beta Pruning is more efficient than Minimax as it explores fewer nodes and takes less time.
