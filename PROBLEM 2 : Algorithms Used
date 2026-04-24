@@ -1,0 +1,21 @@
+## Algorithms Used
+
+### Constraint Satisfaction Problem (CSP)
+
+Sudoku is modeled as a Constraint Satisfaction Problem where:
+- Variables: Each empty cell in the grid
+- Domain: Values from 1 to 9
+- Constraints:
+  - No repetition in rows
+  - No repetition in columns
+  - No repetition in 3×3 subgrids
+
+### Backtracking Algorithm
+
+The solution uses backtracking:
+- Try placing numbers (1–9) in empty cells
+- Check if the placement is valid
+- Recursively proceed
+- If a conflict occurs, backtrack and try another number
+
+This ensures all constraints are satisfied while finding a valid solution.
