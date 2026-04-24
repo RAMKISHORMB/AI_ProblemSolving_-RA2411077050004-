@@ -1,0 +1,24 @@
+### 2. Sudoku Solver (GUI)
+
+Step 1: Open terminal / command prompt  
+Step 2: Navigate to the folder:
+cd Sudoku_Solver  
+
+Step 3: Compile the program:
+javac SudokuGUI.java  
+
+Step 4: Run the program:
+java SudokuGUI  
+
+Step 5:
+- Enter numbers in empty cells OR use pre-filled puzzle
+- Click "Solve" to get solution
+- Click "Check" to verify your solution
+- System will display "You Won" or "Try Again"
+
+---
+
+### Output
+- GUI window will open for both applications
+- Results are displayed visually
+- Console shows additional details (for Tic Tac Toe)
