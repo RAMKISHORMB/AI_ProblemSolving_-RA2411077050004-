@@ -1,0 +1,10 @@
+## Problem Description
+
+Sudoku is a logic-based number placement puzzle played on a 9×9 grid. Some cells are pre-filled, and the objective is to fill the remaining cells such that all constraints are satisfied.
+
+This project provides an interactive GUI where users can input numbers and attempt to solve the puzzle. The system can also automatically solve the puzzle and validate the user’s solution.
+
+The program ensures that:
+- Each row contains digits 1–9 without repetition
+- Each column contains digits 1–9 without repetition
+- Each 3×3 subgrid contains digits 1–9 without repetition
