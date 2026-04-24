@@ -1,0 +1,7 @@
+## Problem Description
+
+The objective of this project is to develop an interactive Tic-Tac-Toe game with an intelligent AI opponent. The user plays against the computer through a graphical user interface (GUI).
+
+The AI is designed to always make the optimal move based on the current state of the game. This is achieved using advanced Artificial Intelligence search techniques.
+
+The system evaluates all possible game states and chooses the best move to either win the game or prevent the opponent from winning. Additionally, the project compares two algorithms—Minimax and Alpha-Beta Pruning—based on their performance in terms of execution time and number of nodes explored.
